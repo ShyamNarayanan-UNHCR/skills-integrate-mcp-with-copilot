@@ -111,6 +111,8 @@ Before we dive into MCP, let's start up our development environment and refamili
    }
    ```
 
+   This `.vscode/mcp.json` file uses the editor-managed configuration format required by this exercise and its workflow. For newer Copilot sessions, keep the equivalent server in the workspace-root `.mcp.json` using the `mcpServers` format; the two files are read by different configurations and can coexist.
+
 1. In the `.vscode/mcp.json` file, click the **Start** button and accept the prompt to authenticate with GitHub. This has just informed GitHub Copilot of the MCP server's capabilities.
 
    <img width="350" alt="mcp.json file showing start button" src="https://github.com/user-attachments/assets/15a3d885-1c13-40b4-8d59-87b478ddd8a0" />
